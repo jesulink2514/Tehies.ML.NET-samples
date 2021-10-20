@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="positive.jpeg" />
+    <None Remove="toxic.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="positive.jpeg" />
+    <Resource Include="toxic.jpeg" />
+  </ItemGroup>
+
+</Project>
